@@ -99,9 +99,21 @@ section {
  }
 
  .button{
-    background-color: greenyellow;
+    background-color: rgb(249, 197, 101);
     border: 1px solid gray;
     height: 20px;
-    width: 80px;
+    width: 100px;
     margin-top: 15px;
+ }
+
+ footer .container{
+    background-color: brown;
+ }
+
+ footer .col{
+    background-color: rgb(249, 197, 101);
+ }
+
+ footer .uno{
+    background-color: greenyellow;
  }
