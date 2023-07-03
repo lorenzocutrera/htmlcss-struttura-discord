@@ -4,26 +4,57 @@
     box-sizing: border-box;
 }
 
-.sidebar .container {
+header {
+    height: 50px;
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
     width: 80%;
     max-width: 1170px;
     margin: auto;
 }
 
+.center_menu{
+    width: 69%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: red;
+}
+.menu {
+    height: 30px;
+    border: 1px solid black;
+    background-color: red;
+    width: 15%;
+}
+
+
+
 .start {
     background-color: cornflowerblue;
     min-height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.grey{
+    background-color: gray;
+    height: 200px;
+    width: 700px;
+    margin: auto;
 }
 
 section {
     min-height: 300px;
-}
-
-.sidebar {
-    background-color: red;
     display: flex;
 }
 
+
+
 .container {
     background-color: orange;
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
 }
