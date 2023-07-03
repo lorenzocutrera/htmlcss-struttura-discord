@@ -15,19 +15,17 @@ header {
     max-width: 1170px;
     margin: auto;
 }
-
-.center_menu{
-    width: 69%;
-    height: 30px;
-    border: 1px solid black;
-    background-color: red;
-}
 .menu {
     height: 30px;
-    border: 1px solid black;
+    border: 1px solid grey;
     background-color: red;
     width: 15%;
 }
+
+.center {
+    width: 70%;
+}
+
 
 
 
@@ -46,15 +44,64 @@ header {
 }
 
 section {
-    min-height: 300px;
+    min-height: 500px;
     display: flex;
 }
 
 
 
 .container {
-    background-color: orange;
+    background-color: rgb(249, 197, 101);
     width: 80%;
     max-width: 1170px;
+    min-height: 300px;
     margin: auto;
 }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.col{
+    background-color: greenyellow;
+    min-height: 200px;
+    border: 1px solid gray;
+    align-items: center;
+    margin-top: 50px;
+    width: 16%;
+
+}
+
+.due{
+    width: 70%;
+}
+.uno{
+    width: 30%;
+ }
+
+ .big{
+    min-height: 1170px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+ }
+
+ footer{
+    background-color: blue;
+    min-height: 500px;
+    justify-content: space-between;
+ }
+
+ .last{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .button{
+    background-color: greenyellow;
+    border: 1px solid gray;
+    height: 20px;
+    width: 80px;
+    margin-top: 15px;
+ }
